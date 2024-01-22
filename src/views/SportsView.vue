@@ -27,7 +27,7 @@ import {useSportsStore} from '@/stores/sports.js'
 import { mapState } from 'pinia'
 export default {
   computed: {
-    ...mapState(useSportsStore, ["getSports","getSport"])
+    ...mapState(useSportsStore, ["getSports"])
   },
   components: { SportComponent }
 }
